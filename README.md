@@ -14,12 +14,20 @@ Korean
   7. 삭제 버튼을 누르면 사원번호를 입력후 삭제 완료버튼을 누르면 삭제 완료 알림이 나타나게 하며, 사원번호 없을 경우 오류창을 나타난다.
   8. 수정 버튼을 누르면 수정할 사원번호를 입력하고 수정 내용을 입력 후 변경 완료 버튼을 누르면 변경 완료 알림창이 나타난다.
 
-- 미완성 부분 :
-  인사관리 프로그램 뿐만아니라 자원 관리 부분도 만들어 통합관리프로그램을 만드는 것이 최종 목표이다.
-
   English
-  - title : Human Resource Management(HRM) Program
-  - Developer : SunMoon UNIV Computer Engineering Back Jung Hyun
-  - last modification date : 22. 12. 23
-  - use language : JAVA, mysql
+-Title: Personnel Management Program for Use in Fast Food Chains
+-Developer: Baek Junghyun, Department of Computer Engineering, Sunmoon University
+-Last Code Modification Date: December 23, 2022
+-Languages Used: JAVA, MySQL
+-Purpose: Recognizing the need for employee information retrieval even within a single store, especially when managing multiple stores where employee details such as ID, name, department, etc., may vary, I developed a personnel management program using JAVA's GUI and MySQL for DBMS.
+
+-Scenario:
+  1. The administrator enters their username and password and clicks the login button to log in.
+  2. If successful, the Personnel Management Program main window appears; if unsuccessful, a login failure notification appears.
+  3. Through registration, the user inputs their ID, password, and name, and upon confirmation, a notification window appears.
+  4. In the main window, with only the department name present, clicking the search button displays information for all employees.
+  5. Upon entering each search criterion and clicking the search button, employees satisfying the criteria are displayed.
+  6. Clicking the add button allows inputting employee number, store name, name, department, phone number, and account number. Upon clicking the create button, a creation complete notification appears.
+  7.Clicking the delete button allows inputting the employee number. Clicking the delete complete button results in a deletion complete notification, while an error window appears if the employee number is not found.
+  8.Clicking the modify button allows entering the employee number to be modified, and after entering the modification details, clicking the complete change button results in a change complete notification.
     
