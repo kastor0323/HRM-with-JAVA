@@ -19,6 +19,7 @@ Korean
 -Developer: Baek Junghyun, Department of Computer Engineering, Sunmoon University
 -Last Code Modification Date: December 23, 2022
 -Languages Used: JAVA, MySQL
+
 -Purpose: Recognizing the need for employee information retrieval even within a single store, especially when managing multiple stores where employee details such as ID, name, department, etc., may vary, I developed a personnel management program using JAVA's GUI and MySQL for DBMS.
 
 -Scenario:
